@@ -1,0 +1,74 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 100%;
+    background-color: #000000;
+     text-align: center;
+}
+
+.container  {
+
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+
+    
+}
+.logo img {
+    margin-top: 80px;
+    width: 500px;
+
+}
+
+.top h1 {
+   text-align: center;
+   color: white;
+   font-size: 50px;
+   padding-top: 30px;
+}
+.container1 {
+    padding: unset;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.container img {
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: row;
+    border-radius: 8px;
+    height: 160px;
+    width: 160px;
+}
+.container img:hover{
+    border: 1px solid white;
+}
+.nome {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+p {
+  color: white;
+  text-align: center;
+}
+
+.div2{
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
